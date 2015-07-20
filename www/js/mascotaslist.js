@@ -64,7 +64,7 @@ function getMascotasIndex() {
 			}
 			;
 			$('#listado_mascotas').append
-			('<li class="mascota"><img class="fotoMini" src="http://localhost/MascotasMimosasAdmin/imagenessubidas/' + mascota.foto + '"/>' + '<a class="no_shadow" data-transition="none" href="ficha.html?idMascota=' + mascota.idMascota +'"><h2">'+ mascota.nombre + '&nbsp;&nbsp;&nbsp;&nbsp;</h2><img src="http://localhost/appmascotasmimosasfinal/www/imgApp/' + claseIcono + '"/>'+
+			('<li class="mascota"><img class="fotoMini" src="http://mascotasmimosas.com/imagenessubidas/' + mascota.foto + '"/>' + '<a class="no_shadow" data-transition="none" href="ficha.html?idMascota=' + mascota.idMascota +'"><h2">'+ mascota.nombre + '&nbsp;&nbsp;&nbsp;&nbsp;</h2><img src="imgApp/' + claseIcono + '"/>'+
 					'<p>' + mascota.edad + ' - ' + mascota.descripcionEs+'</p>'+
 				'</a></li>');
 			});
@@ -80,7 +80,7 @@ function getMascotasList() {
 		mascotas2 = data.items;
 		$.each(mascotas2, function(index, mascota) {
 			$('#listado_mascotas2').append
-			('<li class="mascota"><img class="fotoMini" src="http://localhost/MascotasMimosasAdmin/imagenessubidas/' + mascota.foto + '"/>' + '<a class="no_shadow" data-transition="none" href="ficha.html?idMascota=' + mascota.idMascota +'">'+
+			('<li class="mascota"><img class="fotoMini" src="http://mascotasmimosas.com/imagenessubidas/' + mascota.foto + '"/>' + '<a class="no_shadow" data-transition="none" href="ficha.html?idMascota=' + mascota.idMascota +'">'+
 					'<h2>'+ mascota.nombre + '</h2>'+
 					'<p>' + mascota.edad + ' - ' + mascota.descripcionEs+'</p>'+
 				'</a></li>');
@@ -96,7 +96,7 @@ function getMascotasListFiltrosPerros(dirurl) {
 		mascotas2 = data.items;
 		$.each(mascotas2, function(index, mascota) {
 			$('#listado_mascotas2').append
-			('<li class="mascota"><img class="fotoMini" src="http://localhost/MascotasMimosasAdmin/imagenessubidas/' + mascota.foto + '"/>' + '<a class="no_shadow" data-transition="none" href="ficha.html?idMascota=' + mascota.idMascota +'">'+
+			('<li class="mascota"><img class="fotoMini" src="http://mascotasmimosas.com/imagenessubidas/' + mascota.foto + '"/>' + '<a class="no_shadow" data-transition="none" href="ficha.html?idMascota=' + mascota.idMascota +'">'+
 					'<h2>'+ mascota.nombre + '</h2>'+
 					'<p>' + mascota.edad + ' - ' + mascota.descripcionEs+'</p>'+
 				'</a></li>');
@@ -112,7 +112,7 @@ function getMascotasListFiltrosGatos(dirurl) {
 		mascotas3 = data.items;
 		$.each(mascotas3, function(index, mascota) {
 			$('#listado_mascotas3').append
-			('<li class="mascota"><img class="fotoMini" src="http://localhost/MascotasMimosasAdmin/imagenessubidas/' + mascota.foto + '"/>' + '<a class="no_shadow" data-transition="none" href="ficha.html?idMascota=' + mascota.idMascota +'">'+
+			('<li class="mascota"><img class="fotoMini" src="http://mascotasmimosas.com/imagenessubidas/' + mascota.foto + '"/>' + '<a class="no_shadow" data-transition="none" href="ficha.html?idMascota=' + mascota.idMascota +'">'+
 					'<h2>'+ mascota.nombre + '</h2>'+
 					'<p>' + mascota.edad + ' - ' + mascota.descripcionEs+'</p>'+
 				'</a></li>');
@@ -128,7 +128,7 @@ function getMascotasListGatos() {
 		mascotas3 = data.items;
 		$.each(mascotas3, function(index, mascota) {
 			$('#listado_mascotas3').append
-			('<li class="mascota"><img class="fotoMini" src="http://localhost/MascotasMimosasAdmin/imagenessubidas/' + mascota.foto + '"/>' + '<a class="no_shadow" data-transition="none" href="ficha.html?idMascota=' + mascota.idMascota +'">'+
+			('<li class="mascota"><img class="fotoMini" src="http://mascotasmimosas.com/imagenessubidas/' + mascota.foto + '"/>' + '<a class="no_shadow" data-transition="none" href="ficha.html?idMascota=' + mascota.idMascota +'">'+
 					'<h2>'+ mascota.nombre + '</h2>'+
 					'<p>' + mascota.edad + ' - ' + mascota.descripcionEs+'</p>'+
 				'</a></li>');

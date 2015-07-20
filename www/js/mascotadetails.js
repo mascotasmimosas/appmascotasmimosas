@@ -1,4 +1,4 @@
-var mascotas2;
+﻿var mascotas2;
 
 $('#paginaficha').bind('pageinit', function(event) {
 	alert("Entro a la pagina live");
@@ -15,7 +15,7 @@ function displayMascota(data) {
 	$.each(mascotas2, function(index, mascota) {
 	//var mascota = data.item;
 		console.log(mascota);
-		$('#imagenMascota').attr('src', 'http://mascotasmimosas.com/mascotasmimosasadmin/imagenessubidas/' + mascota.foto);
+		$('#imagenMascota').attr('src', 'http://mascotasmimosas.com/imagenessubidas/' + mascota.foto);
 		$('#Nombre').text(mascota.nombre);
 		//alert("el nombre de la mascota es");
 		$('#Edad').text(mascota.edad + ' años');
