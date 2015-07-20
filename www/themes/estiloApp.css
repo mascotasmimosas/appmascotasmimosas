@@ -1,0 +1,125 @@
+/* Mis clases de la APP
+-----------------------------------------------------------------------------------------------------------*/
+.oculto{
+	display: none;
+}
+.centrado{
+	margin: 0 auto;
+}
+#logo{
+	width: 243px;
+	height: 92px;
+	margin: 0 auto;
+}
+#logo_interior{
+	width: 165px;
+	height: 66px;
+	margin: 0 auto;
+}
+.contenido{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.espacio_botones{
+	margin-bottom: 10px;
+}
+.ui-icon-myiconGato:after {
+    background-image: url("../imgApp/iconGato.png");
+    /* Make your icon fit */
+    background-size: 18px 18px;
+}
+.ui-icon-myiconPerro:after {
+    background-image: url("../imgApp/iconPerro.png");
+    /* Make your icon fit */
+    background-size: 18px 18px;
+}
+#menu{
+	/*margin-top: 15px;*/
+	margin-bottom: 5px;
+}
+.no_shadow{
+	border: 0px;
+	box-shadow: none;
+}
+h3{
+	font-size: 14px;
+}
+.nombre_mascota{
+	font-size: 12px;
+}
+.foto_chica{
+	width: 80px;
+	height: 80px;
+}
+
+/*--------------CUADRO MASCOTA-------------*/
+.cuadro_mascota{
+	background-color:#F18C77;
+	height: 190px;
+	margin:0 auto;
+	margin-top:10px;
+	color: #ffffff;
+	font-size: 14px;
+	padding-top: 10px;
+
+}
+.img_mascota{
+	display: block;
+	width:200px;
+	height:200px;
+	padding-top:30px;
+	margin:0 auto;
+}
+.info_mascota{
+	margin: 0 auto;
+}
+#Nombre{
+	font-weight:bold;
+	color:#65022C;
+	font-size: 18px;
+}
+#Edad{
+	color:#65022C;
+	}
+#Descripcion{
+	color: #ffffff;
+}
+#refugio{
+	color:#421B0A;
+	display: block;
+}
+.boton_lora{
+	/*display:block;*/
+	width:200px;
+	height:50px;
+	background-color:#65022C;
+	color:#ffffff;
+	margin:0 auto;
+	text-decoration:none;
+	
+}
+.boton_lora span{
+	margin:0 auto;
+	line-height:50px;
+	color:#ffffff;
+}
+.fotoMini{
+	z-index: 3;
+}
+#menu_filtro{
+	margin-bottom: 15px;
+
+}
+#menu_filtro ul li a{
+	color: #000000;
+	font-weight: bold;
+}
+#imagenMascota{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 5px;
+}
+#adoptar{
+	font-size: 12px;
+}

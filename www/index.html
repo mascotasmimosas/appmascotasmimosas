@@ -1,0 +1,187 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mascotas Mimosas - APP</title>
+	<link rel="stylesheet" href="themes/MascotasMimosasApp.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="themes/estiloApp.css" />
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+	
+</head>
+<body>
+	<!--COMIENZO INDEX - PAGINA 1 -->
+	<div data-role="page" id="index">
+		<div data-role="header">
+			<h1 id="logo"><span class="oculto">Mascotas Mimosas</span><img src="imgApp/logo_chico.png" alt="Logo Mascotas Mimosas APP" /></h1>
+		</div>
+		<div data-role="main" class="contenido">
+			<div data-role="controlgroup" data-type="vertical">
+		      <a data-transition="slide" href="#verMascotas" class="ui-btn espacio_botones">Ver Mascotas</a>
+		      <!-- <a data-transition="slide" href="#consejos" class="ui-btn">Consejos</a> -->
+		   </div>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h2>Mascotas Mimosas - 2014</h2>
+		</div>
+	</div>
+	<!--COMIENZO VER MASCOTAS - PAGINA 2 -->
+	<div data-role="page" id="verMascotas">
+		<div data-role="header">
+			<a data-transition="slide" data-rel="back" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-carat-l no_shadow">Volver</a>
+			<h1 id="logo_interior"><span class="oculto">Mascotas Mimosas</span><img src="imgApp/logo_interior_app.png" alt="Logo Mascotas Mimosas APP" /></h1>
+		</div>
+		<div data-role="navbar" id="menu">
+		      <ul>
+		        <li><a data-transition="none" href="#perros" class="ui-btn ui-btn-icon-top ui-icon-myiconPerro no_shadow">Perros</a></li>
+		        <li><a data-transition="none" href="#gatos" class="ui-btn ui-btn-icon-top ui-icon-myiconGato no_shadow">Gatos</a></li>
+
+		      </ul>
+    	</div>
+		<div data-role="main" class="contenido">
+			<h3 id="titulo">Mascotas en adopción</h3>
+			<ul data-role="listview" data-split-icon="carat-r" data-inset="true" id="listado_mascotas">
+	
+				<!-- Aca se carga mediante el json -->
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h2>Mascotas Mimosas - 2014</h2>
+		</div>
+	</div>
+
+	<!--COMIENZO VER MASCOTAS PERROS - PAGINA 3 -->
+	<div data-role="page" id="perros">
+		<div data-role="header">
+			<a data-transition="slide" data-rel="back" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-carat-l no_shadow">Volver</a>
+			<h1 id="logo_interior"><span class="oculto">Mascotas Mimosas</span><img src="imgApp/logo_interior_app.png" alt="Logo Mascotas Mimosas APP" /></h1>
+		</div>
+		<div data-role="navbar" id="menu">
+		      <ul>
+		        <li><a data-transition="none" href="#perros" class="ui-btn ui-btn-icon-top ui-icon-myiconPerro no_shadow" id="mostrarPerros">Perros</a></li>
+		        <li><a data-transition="none" href="#gatos" class="ui-btn ui-btn-icon-top ui-icon-myiconGato no_shadow" id="mostrarGatos">Gatos</a></li>
+
+		      </ul>
+    	</div>
+		<div data-role="main" class="contenido">
+			<h3 id="titulo">Perros en adopción</h3>
+		<div data-role="navbar" id="menu_filtro">
+		      <ul>
+		        <li><a data-transition="none" href="#perros" class="ui-btn-inline no_shadow" id="perros_cachorros">Cachorros</a></li>
+		        <li><a data-transition="none" href="#perros" class="ui-btn-inline no_shadow" id="perros_pequenos">Pequeños</a></li>
+		        <li><a data-transition="none" href="#perros" class="ui-btn-inline no_shadow" id="perros_medianos">Medianos</a></li>
+		        <li><a data-transition="none" href="#perros" class="ui-btn-inline no_shadow" id="perros_grandes">Grandes</a></li>
+
+		      </ul>
+    	</div>
+
+		<ul data-role="listview" data-split-icon="carat-r" data-inset="true" id="listado_mascotas2">
+			<!--<li id="mascota">
+				<a class="no_shadow" data-transition="none" href="#ficha">
+					<img class="foto_chica" src="imgApp/roque.jpg" alt="Roque">
+					<h2>Roque</h2>
+					<p>8 años - El campito</p>
+				</a>
+			</li>
+			<li id="mascota">
+				<a class="no_shadow" data-transition="none" href="#ficha">
+					<img class="foto_chica" src="imgApp/roque.jpg" alt="Roque">
+					<h2>Roque</h2>
+					<p>8 años - El campito</p>
+				</a>
+			</li>
+			<li id="mascota">
+				<a class="no_shadow" data-transition="none" href="#ficha">
+					<img class="foto_chica" src="imgApp/roque.jpg" alt="Roque">
+					<h2>Roque</h2>
+					<p>8 años - El campito</p>
+				</a>
+			</li>
+			<li id="mascota">
+				<a class="no_shadow" data-transition="none" href="#ficha">
+					<img class="foto_chica" src="imgApp/roque.jpg" alt="Roque">
+					<h2>Roque</h2>
+					<p>8 años - El campito</p>
+				</a>
+			</li>-->
+			
+		</ul>
+
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h2>Mascotas Mimosas - 2014</h2>
+		</div>
+	</div>
+
+	<!--COMIENZO VER MASCOTAS GATOS - PAGINA 3B -->
+	<div data-role="page" id="gatos">
+		<div data-role="header">
+			<a data-transition="slide" data-rel="back" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-carat-l no_shadow">Volver</a>
+			<h1 id="logo_interior"><span class="oculto">Mascotas Mimosas</span><img src="imgApp/logo_interior_app.png" alt="Logo Mascotas Mimosas APP" /></h1>
+		</div>
+		<div data-role="navbar" id="menu">
+		      <ul>
+		        <li><a data-transition="none" href="#perros" class="ui-btn ui-btn-icon-top ui-icon-myiconPerro no_shadow" id="mostrarPerros">Perros</a></li>
+		        <li><a data-transition="none" href="#gatos" class="ui-btn ui-btn-icon-top ui-icon-myiconGato no_shadow" id="mostrarGatos">Gatos</a></li>
+
+		      </ul>
+    	</div>
+		<div data-role="main" class="contenido">
+			<h3 id="titulo">Gatos en adopción</h3>
+			<div data-role="navbar" id="menu_filtro">
+		      <ul>
+		        <li><a data-transition="none" href="#gatos" class="ui-btn-inline no_shadow" id="gatos_cachorros">Cachorros</a></li>
+		        <li><a data-transition="none" href="#gatos" class="ui-btn-inline no_shadow" id="gatos_pequenos">Pequeños</a></li>
+		        <li><a data-transition="none" href="#gatos" class="ui-btn-inline no_shadow" id="gatos_medianos">Medianos</a></li>
+		        <li><a data-transition="none" href="#gatos" class="ui-btn-inline no_shadow" id="gatos_grandes">Grandes</a></li>
+
+		      </ul>
+    	</div>
+			<ul data-role="listview" data-split-icon="carat-r" data-inset="true" id="listado_mascotas3">
+		
+				<!-- Aca van los gatos -->
+			</ul>
+
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<h2>Mascotas Mimosas - 2014</h2>
+			</div>
+	</div>
+
+
+	<!--COMIENZO FICHA - PAGINA 4 -->
+	<!--<div data-role="page" id="ficha">
+		<div data-role="header">
+			<a data-transition="slide" href="#verMascotas" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-carat-l no_shadow">Volver</a>
+			<h1 id="logo_interior"><span class="oculto">Mascotas Mimosas</span><img src="imgApp/logo_interior_app.png" alt="Logo Mascotas Mimosas APP" /></h1>
+		</div>
+		<div data-role="main" class="contenido ui-content">
+			<!--<ul data-role="listview" data-split-icon="carat-r" data-inset="true">
+				<li id="mascota">
+					<a class="no_shadow" data-transition="none">
+						<img class="foto_chica" src="imgApp/roque.jpg" alt="Roque">
+						<h2 id="nombre"></h2>
+						<p id="info"></p>
+					</a>
+				</li>
+			</ul>
+        	<img id="imagenMascota"/>
+			<div id="detalles">
+		       <h3 id="Nombre"></h3>
+		       <p id="Edad"></p>
+		       <p id="Descripcion"></p>
+		   	</div>
+			 
+		    <ul id="actionList" data-role="listview" data-inset="true"></ul>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h2>Mascotas Mimosas - 2014</h2>
+		</div>
+	</div>-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+<script src="js/mascotaslist.js"></script>
+<!-- <script src="js/mascotadetails.js"></script> -->
+</body>
+</html>

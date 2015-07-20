@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mascotas Mimosas - APP</title>
+	<link rel="stylesheet" href="themes/MascotasMimosasApp.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="themes/estiloApp.css" />
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+	
+</head>
+<body>
+<!--COMIENZO FICHA - PAGINA 4 -->
+	<div data-role="page" id="paginaficha">
+		<div data-role="header">
+			<a data-transition="slide" href="index.html" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-carat-l no_shadow">Volver</a>
+			<h1 id="logo_interior"><span class="oculto">Mascotas Mimosas</span><img src="imgApp/logo_interior_app.png" alt="Logo Mascotas Mimosas APP" /></h1>
+		</div>
+		<div data-role="main" class="contenido">
+			<!--<ul data-role="listview" data-split-icon="carat-r" data-inset="true">
+				<li id="mascota">
+					<a class="no_shadow" data-transition="none">
+						<img class="foto_chica" src="imgApp/roque.jpg" alt="Roque">
+						<h2 id="nombre"></h2>
+						<p id="info"></p>
+					</a>
+				</li>
+			</ul>-->
+        	<img id="imagenMascota">
+			<div id="detalles" class="cuadro_mascota">
+		       <h3 id="Nombre"></h3>
+		       <p id="Edad"></p>
+		       <p id="Descripcion"></p>
+		       <p id="probando"></p>
+		       <a id="adoptar" class="ui-btn">ADOPTAME</a>
+		   	</div>
+			 
+		   <!--  <ul id="actionList" data-role="listview" data-inset="true"></ul> -->
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h2>Mascotas Mimosas - 2014</h2>
+		</div>
+	</div>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+	<script src="js/mascotaslist.js"></script>
+	<script src="js/mascotadetails.js"></script>
+</body>
+</html>
