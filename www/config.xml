@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.mascotasmimosas.app"
+        version   = "1.0.0">
+
+    <name>Mascotas Mimosas</name>
+
+    <description>
+        Mascotas Mimosas es un sitio de adopción responsable
+    </description>
+
+    <author href="http://mascotasmimosas.com" email="hola@mascotasmimosas.com">
+        Mascotas Mimosas
+    </author>
+
+   
+
+    <!-- Define app icon for each platform. -->
+    <icon src="icon.png" />
+    <icon src="res/icon36.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="res/icon48.png"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="res/icon72.png"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="res/icon96.png"   gap:platform="android"    gap:qualifier="xhdpi" />
+    
+
+  
+
+</widget>
