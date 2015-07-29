@@ -1,6 +1,6 @@
-﻿var mascotas2;
+var mascotas2;
 
-$('#paginaficha').bind('pageinit', function(event) {
+$('#paginaficha').bind('pageshow', function(event) {
 	alert("Entro a la pagina live");
 	var id = getUrlVars()["idMascota"];
 	//alert ("el id es " + id);
